@@ -5,4 +5,10 @@ import Banner from "./src/components/banner.js";
 import Footer from "./src/components/footer.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Navbar />, <Banner />, <Footer />);
+root.render(
+  <>
+    <Navbar />
+    <Banner />
+    <Footer />
+  </>
+);
