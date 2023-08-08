@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <p>Example website for pure js .</p>
+      <p>Example of a React based website.</p>
     </footer>
   );
 }
