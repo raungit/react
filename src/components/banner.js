@@ -1,12 +1,12 @@
 import React from "react";
 
 function Banner() {
-  function handleClick() {
+  const handleClick = () => {
     alert("I am a component");
-  }
+  };
 
   return (
-    <div class="banner">
+    <div className="banner">
       <button onClick={handleClick}>Click Me</button>
     </div>
   );
