@@ -14,7 +14,7 @@
   "name": "react",
   "description": "This website is made using React.",
   "version": "1.0.0",
-  "main": "main.js",
+
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
